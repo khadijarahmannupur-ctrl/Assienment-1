@@ -24,7 +24,7 @@
 
 }
 .color-green{
-    color: #30B868;
+    color: #469165;
 }
 
 
@@ -32,9 +32,9 @@
 header {
     /* background-color: aquamarine; */
     padding-top: 16px;
-    background-image: url(../assets/hero-bg.png);
+    /* background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom; */
     max-width: 1517px;
 }
 nav{
@@ -64,6 +64,8 @@ nav .manu a{
     padding-left: 303px;
 }
 /* navber is comlpet */
+
+/* banner style start */
 
 #banner{
     border: 2px solid red;
@@ -98,6 +100,91 @@ nav .manu a{
     /* text-align: center; */
     margin-bottom: 32px;
 }
+/* banner style compled */
 
+/* note style start */
 
+/* #note{
+    max-width: 1277px;
+    width: 84%;
+    height: 444px;
+    margin: 0 auto;
+    align-items: center;
+} 
+#note h1{
+    padding-top: 50px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+#note .n-p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+#note .my-note {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+#note .note-container .note-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 84%;
+    max-width: 1277px;
+    margin: 0 auto;
+}
+.section-heading{
+    max-width: 1277px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+    line-height: 20px;
+    color: #627382;
+}
+.note-box .note-card{
+    padding: 70px 24px;
+    /* border: 2px solid black; */
+    max-width: 300px;
+    box-shadow: 0 0px 8px 0 #00000027;
+}
+.note-card img{
+    max-width: 32px;
+    margin-bottom: 30px;
+    background: #F95555;
+    
+}
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.note-card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+}
+/* note styles is complet */
+
+/* second brain styles starts */
 
