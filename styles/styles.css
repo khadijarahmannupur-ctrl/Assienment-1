@@ -23,12 +23,19 @@
     cursor: pointer;
 
 }
+.color-green{
+    color: #30B868;
+}
 
 
 /* main-style */
 header {
-    background-color: aquamarine;
-    padding: 16px;
+    /* background-color: aquamarine; */
+    padding-top: 16px;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-width: 1517px;
 }
 nav{
     width: 84%;
@@ -39,6 +46,7 @@ nav{
     border: 2px solid red;
     margin: 0 auto;
     align-items: center;
+    padding: 16px;
 }
 nav .manu{
     display: flex;
@@ -55,4 +63,41 @@ nav .manu a{
 .manu .h-btn{
     padding-left: 303px;
 }
+/* navber is comlpet */
+
+#banner{
+    border: 2px solid red;
+    margin-top: 16px;
+    max-width: 1517px;
+    height: 674px;
+}
+#banner .banner-content {
+  text-align: center;
+  margin: 120px auto;
+}
+.banner-content .b-btn{
+    padding: 8px 12px 8px 34px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    border: none;
+    border-radius: 1000px;
+    background-color: aquamarine;
+    margin-bottom: 16px;
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.banner-content p{
+    font-size: 16px;
+    line-height: 24px;
+    /* text-align: center; */
+    margin-bottom: 32px;
+}
+
+
 
