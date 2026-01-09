@@ -23,6 +23,9 @@
     cursor: pointer;
 
 }
+.btn:hover{
+    background-color: #353a37;
+}
 .color-green{
     color: #469165;
 }
