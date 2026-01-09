@@ -32,21 +32,22 @@
 header {
     /* background-color: aquamarine; */
     padding-top: 16px;
-    /* background-image: url(../assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: bottom; */
+    background-position: bottom;
     max-width: 1517px;
+    height: 765px;
 }
 nav{
     width: 84%;
     max-width: 1277px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     margin: 0 auto;
     align-items: center;
-    padding: 16px;
+    padding-bottom: 20px;
 }
 nav .manu{
     display: flex;
@@ -68,14 +69,17 @@ nav .manu a{
 /* banner style start */
 
 #banner{
-    border: 2px solid red;
-    margin-top: 16px;
+    /* border: 2px solid red; */
+    /* margin-bottom: 100px; */
     max-width: 1517px;
     height: 674px;
+    
+
 }
 #banner .banner-content {
   text-align: center;
-  margin: 120px auto;
+  margin: 100px auto;
+  padding-top: 30px;
 }
 .banner-content .b-btn{
     padding: 8px 12px 8px 34px;
@@ -84,10 +88,14 @@ nav .manu a{
     color: #469165;
     border: none;
     border-radius: 1000px;
-    background-color: aquamarine;
+    background-color: #FFFFFF;
     margin-bottom: 16px;
 }
+.b-btn i {
+    margin-right: 10px;
+}
 .banner-content h1{
+    color: #FFFFFF;
     font-size: 72px;
     font-weight: bold;
     line-height: 84px;
@@ -97,41 +105,19 @@ nav .manu a{
 .banner-content p{
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF;
     /* text-align: center; */
     margin-bottom: 32px;
+}
+.see-how {
+    margin-left: 16px;
+    border: 3px solid white;
+    background: none;
 }
 /* banner style compled */
 
 /* note style start */
 
-/* #note{
-    max-width: 1277px;
-    width: 84%;
-    height: 444px;
-    margin: 0 auto;
-    align-items: center;
-} 
-#note h1{
-    padding-top: 50px;
-    padding-bottom: 16px;
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    color: #001931;
-}
-#note .n-p{
-    text-align: center;
-    line-height: 20px;
-    font-size: 16px;
-    color: #627382;
-}
-#note .my-note {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
 
 #note .note-container .note-box{
     display: flex;
@@ -309,22 +295,25 @@ footer .footer-container{
     color: white;
     margin-bottom: 16px;
 }
-/* .social .icon{
-    display: flex;
-    gap: 16px;
-    
-} */
+
 .icon a i {
     color: black;
     margin-right: 16px;
     background: white;
     background-size: 40px;
-    border-radius: 100%;
+    border-radius: 50%;
     
 }
 .footer-bottom {
   text-align: center;
   padding-top: 100px;
   font-size: 14px;
-  color: #E5E7EB;
+
+}
+.footer-bottom p{
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.footer-bottom hr{
+    color: #e5e7eb44;
 }
