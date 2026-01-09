@@ -284,3 +284,47 @@ nav .manu a{
     text-align: center;
     padding-bottom: 80px;
 }
+/* ready section complet */
+
+/* footer start */
+
+footer{
+
+    background-color: #001931;
+    padding: 120px 120px 165px 120px;
+    height: 350px;
+    margin-top: 100px;
+}
+footer .footer-container{
+    max-width: 1277px;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-container .social p{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+/* .social .icon{
+    display: flex;
+    gap: 16px;
+    
+} */
+.icon a i {
+    color: black;
+    margin-right: 16px;
+    background: white;
+    background-size: 40px;
+    border-radius: 100%;
+    
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 14px;
+  color: #E5E7EB;
+}
