@@ -165,12 +165,24 @@ nav .manu a{
     max-width: 300px;
     box-shadow: 0 0px 8px 0 #00000027;
 }
-.note-card img{
+.note-card img .bg{
     max-width: 32px;
     margin-bottom: 30px;
-    background: #F95555;
-    
+    align-items: center;
 }
+   
+.bg{
+  width: 60px;
+  height: 60px;
+  background-color: #ff5a5a;   
+  border-radius: 50%;          
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
 .note-card h3{
     font-size: 24px;
     font-weight: 600;
@@ -186,5 +198,89 @@ nav .manu a{
 }
 /* note styles is complet */
 
-/* second brain styles starts */
+/* banner-2 styles starts */
 
+#banner-2{
+    /* border: 2px solid black; */
+    /* margin: 47px 6px 0px 230px; */
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+}
+#banner-2 .banner-image{
+    padding: 120px 0;
+}
+#banner-2 .banner-content2{
+    max-width: 677px;
+}
+#banner-2 .banner-content-2 h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color:#469165;
+    margin-bottom: 16px;
+}
+#banner-2 .banner-content-2 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+}
+#banner-2 .banner-content-2 p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+    max-width: 617px;
+}
+.banner-content-2 ul li{
+    list-style-type: none;
+}
+.banner-content-2 li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    max-width: 617px;
+    padding-bottom: 16px;
+}
+.banner-content-2 li i {
+    margin-right: 10px;
+    color: #30B868;
+    max-width: 20px;
+    
+}
+/* banner-2 style comlpet */
+
+/* ready section style start */
+
+#ready{
+    max-width: 1277px;
+    width: 84%;
+    margin: 0 auto;
+}
+#ready .ready-container{
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.ready-container h2{
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+.ready-container p{
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+.ready-container .peragraph{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+}
